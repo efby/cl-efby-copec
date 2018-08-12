@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="efby-plugin-copec"
+    version="1.0.0">
+    <name>Cordova Plugin Template</name>
+    <description></description>
+    <license>MIT</license>
+    <keywords></keywords>
+    <repo>https://github.com/thecouk/ionic-cordova-plugin-template.git</repo>
+    
+
+    <!-- android -->
+    <platform name="android">
+      <js-module src="www/plugin.js" name="plugin">
+        <runs/>
+
+        <!-- Este es el nombre por el cual se accedera el plugin -->
+        <clobbers target="EfbyPlugin" />
+      </js-module>
+      <config-file target="res/xml/config.xml" parent="/*">
+        <feature name="EfbyPlugin">
+          <param name="android-package" value="cl.efby.copec.EfbyPlugin" />
+          <param name="onload" value="true" />
+        </feature>
+      </config-file>
+
+      <source-file src="src/android/cl/efby/copec/EfbyPlugin.java" target-dir="src/cl/efby/copec/" />
+    </platform>
+
+    <!-- ios -->
+    <platform name="ios">
+        <js-module src="www/plugin.js" name="plugin">
+            <runs/>
+            <clobbers target="EfbyPlugin" />
+        </js-module>
+        <config-file target="config.xml" parent="/*">
+            <feature name="EfbyPlugin">
+                <param name="ios-package" value="EfbyPlugin" onload="true" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/EfbyPlugin.h" />
+        <source-file src="src/ios/EfbyPlugin.m" />
+    </platform>
+</plugin>

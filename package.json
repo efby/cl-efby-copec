@@ -1,0 +1,35 @@
+{
+  "_from": "git+https://github.com/thecouk/ionic-cordova-plugin-template.git",
+  "_id": "cordova-plugin-plantilla@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-plantilla",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/thecouk/ionic-cordova-plugin-template.git",
+    "rawSpec": "https://github.com/thecouk/ionic-cordova-plugin-template.git",
+    "saveSpec": "git+https://github.com/thecouk/ionic-cordova-plugin-template.git",
+    "fetchSpec": "https://github.com/thecouk/ionic-cordova-plugin-template.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/thecouk/ionic-cordova-plugin-template.git#3b049444a108933e78a68f1b958c9032862936b2",
+  "_spec": "https://github.com/thecouk/ionic-cordova-plugin-template.git",
+  "_where": "/Users/raulrodriguez/ionic-workspace/TaxiAmigoCopec",
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-plantilla",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Plantilla base para crear un Plugin personalizado",
+  "name": "cordova-plugin-plantilla",
+  "version": "1.0.0"
+}
