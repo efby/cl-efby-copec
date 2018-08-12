@@ -1,35 +1,35 @@
 {
-  "_from": "git+https://github.com/thecouk/ionic-cordova-plugin-template.git",
-  "_id": "cordova-plugin-plantilla@1.0.0",
+  "_from": "git+https://github.com/efby/cl-efby-copec.git",
+  "_id": "cl-efby-copec@1.0.0",
   "_inBundle": false,
   "_integrity": "",
-  "_location": "/cordova-plugin-plantilla",
+  "_location": "/cl-efby-copec",
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "https://github.com/thecouk/ionic-cordova-plugin-template.git",
-    "rawSpec": "https://github.com/thecouk/ionic-cordova-plugin-template.git",
-    "saveSpec": "git+https://github.com/thecouk/ionic-cordova-plugin-template.git",
-    "fetchSpec": "https://github.com/thecouk/ionic-cordova-plugin-template.git",
+    "raw": "https://github.com/efby/cl-efby-copec.git",
+    "rawSpec": "https://github.com/efby/cl-efby-copec.git",
+    "saveSpec": "git+https://github.com/efby/cl-efby-copec.git",
+    "fetchSpec": "https://github.com/efby/cl-efby-copec.git",
     "gitCommittish": null
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/thecouk/ionic-cordova-plugin-template.git#3b049444a108933e78a68f1b958c9032862936b2",
-  "_spec": "https://github.com/thecouk/ionic-cordova-plugin-template.git",
+  "_resolved": "git+https://github.com/efby/cl-efby-copec.git#3b049444a108933e78a68f1b958c9032862936b2",
+  "_spec": "https://github.com/efby/cl-efby-copec.git",
   "_where": "/Users/raulrodriguez/ionic-workspace/TaxiAmigoCopec",
   "bundleDependencies": false,
   "cordova": {
-    "id": "cordova-plugin-plantilla",
+    "id": "cl-efby-copec",
     "platforms": [
       "android",
       "ios"
     ]
   },
   "deprecated": false,
-  "description": "Plantilla base para crear un Plugin personalizado",
-  "name": "cordova-plugin-plantilla",
+  "description": "APP VERSION",
+  "name": "cl-efby-copec",
   "version": "1.0.0"
 }
